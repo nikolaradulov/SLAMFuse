@@ -1,0 +1,132 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_daede/fast && /usr/bin/make -f CMakeFiles/cmTC_daede.dir/build.make CMakeFiles/cmTC_daede.dir/build
+make[1]: Entering directory '/home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_daede.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_daede.dir/src.cxx.o -c /home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+make[1]: *** [CMakeFiles/cmTC_daede.dir/build.make:66: CMakeFiles/cmTC_daede.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_daede/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_44715/fast && /usr/bin/make -f CMakeFiles/cmTC_44715.dir/build.make CMakeFiles/cmTC_44715.dir/build
+make[1]: Entering directory '/home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_44715.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_44715.dir/src.cxx.o -c /home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+make[1]: *** [CMakeFiles/cmTC_44715.dir/build.make:66: CMakeFiles/cmTC_44715.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_44715/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_25d98/fast && /usr/bin/make -f CMakeFiles/cmTC_25d98.dir/build.make CMakeFiles/cmTC_25d98.dir/build
+make[1]: Entering directory '/home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_25d98.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_25d98.dir/src.cxx.o -c /home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'; did you mean '-fstrict-enums'?
+make[1]: *** [CMakeFiles/cmTC_25d98.dir/build.make:66: CMakeFiles/cmTC_25d98.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_25d98/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa8bd/fast && /usr/bin/make -f CMakeFiles/cmTC_aa8bd.dir/build.make CMakeFiles/cmTC_aa8bd.dir/build
+make[1]: Entering directory '/home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa8bd.dir/src.cxx.o
+/usr/bin/c++    -fexceptions -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTC_aa8bd.dir/src.cxx.o -c /home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'
+make[1]: *** [CMakeFiles/cmTC_aa8bd.dir/build.make:66: CMakeFiles/cmTC_aa8bd.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nrad/slambench/sandbox/eigen-3.2.10/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_aa8bd/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -v 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -fpp 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -v 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -fpp 
+
+The output was:
+No such file or directory
+
+

@@ -1,0 +1,17 @@
+#include <Eigen/Dense>
+#include <iostream>
+
+using namespace Eigen;
+using namespace std;
+
+int main(int, char**)
+{
+  cout.precision(3);
+  MatrixXf a(2,3); a << 1, 2, 3, 4, 5, 6;
+cout << "Here is the initial matrix a:\n" << a << endl;
+
+
+a.transposeInPlace();
+cout << "and after being transposed:\n" << a << endl;
+  return 0;
+}
