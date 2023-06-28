@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nrad/slambench/sandbox/version1/library/src/asciidraw.cpp
+asciidraw.h
+/home/nrad/slambench/sandbox/version1/library/src/asciidraw.h
+iostream
+-
+
+/home/nrad/slambench/sandbox/version1/library/src/asciidraw.h
+

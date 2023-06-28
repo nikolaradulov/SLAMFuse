@@ -1,0 +1,2 @@
+/usr/bin/ar qc libasciidraw.a  CMakeFiles/asciidraw.dir/src/asciidraw.cpp.o
+/usr/bin/ranlib libasciidraw.a

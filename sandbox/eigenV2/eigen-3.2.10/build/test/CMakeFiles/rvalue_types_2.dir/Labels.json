@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/nrad/slambench/sandbox/eigenV2/eigen-3.2.10/test/rvalue_types.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "rvalue_types_2"
+	}
+}

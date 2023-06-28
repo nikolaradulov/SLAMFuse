@@ -1,0 +1,2 @@
+/usr/local/lib/libasciidraw.a
+/usr/local/include/asciidraw.h
